@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#e9e7e1">
+<meta name="description" content="CERO Buenos Aires. Ropa real para planes reales. Drop 01: prendas urbanas, esenciales y sin exceso.">
+<title>CERO® — Buenos Aires / Drop 01</title>
+<style>
+:root{--paper:#e9e7e1;--ink:#171817;--muted:#777873;--line:#c7c5be;--acid:#c8f169;--white:#f8f7f3;--max:1440px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{width:min(100% - 44px,var(--max));margin:auto}.eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase}.topline{background:var(--ink);color:var(--paper);padding:9px 20px;text-align:center;font-size:10px;letter-spacing:.17em;text-transform:uppercase}.header{position:sticky;top:0;z-index:20;background:rgba(233,231,225,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-size:35px;letter-spacing:.13em;font-weight:900;line-height:1}.logo sup{font-size:10px;vertical-align:top;letter-spacing:0}.navlinks{display:flex;align-items:center;gap:34px}.navlinks a{font-size:11px;letter-spacing:.14em;text-transform:uppercase}.navlinks a:hover,.footer a:hover{opacity:.55}.navright{display:flex;align-items:center;gap:12px}.cart-btn,.menu-btn{border:1px solid var(--ink);background:transparent;padding:11px 13px;font-size:11px;letter-spacing:.1em;text-transform:uppercase}.menu-btn{display:none}.hero{min-height:620px;display:grid;grid-template-columns: .95fr 1.05fr;border-bottom:1px solid var(--ink)}.hero-copy{padding:clamp(38px,7vw,100px) max(22px,calc((100vw - var(--max))/2)) 52px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.hero-kicker{display:flex;gap:9px;align-items:center;margin-bottom:30px}.dot{height:8px;width:8px;background:var(--acid);border-radius:50%;display:inline-block}.hero h1{font-size:clamp(72px,12vw,168px);line-height:.78;letter-spacing:-.09em;margin:0 0 26px;font-weight:900}.hero h1 span{display:block;font-size:clamp(15px,2vw,24px);letter-spacing:.19em;line-height:1.4;margin-top:26px;font-weight:500}.hero p{font-size:15px;line-height:1.7;max-width:390px;color:#555750;margin:0 0 28px}.btn{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;padding:15px 18px;border:1px solid var(--ink);background:var(--ink);color:var(--paper);font-size:11px;letter-spacing:.15em;text-transform:uppercase;transition:.2s}.btn:hover{background:var(--acid);color:var(--ink)}.btn.light{background:transparent;color:var(--ink)}.hero-image{min-height:480px;position:relative;background:#777;overflow:hidden}.hero-image img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:center 20%;filter:saturate(.65)}.image-label{position:absolute;left:24px;bottom:24px;background:var(--paper);padding:11px 13px;font-size:10px;letter-spacing:.14em;text-transform:uppercase}.section{padding:94px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:36px}.section-head h2{font-size:clamp(34px,6vw,72px);letter-spacing:-.06em;line-height:.95;margin:12px 0 0;font-weight:800}.section-head p{max-width:320px;color:#62645e;font-size:13px;line-height:1.6;margin:0}.products{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}.product{min-width:0}.product-photo{background:#d5d4ce;aspect-ratio: .83;position:relative;overflow:hidden}.product-photo img{width:100%;height:100%;object-fit:cover;transition:transform .5s;filter:saturate(.72)}.product:hover .product-photo img{transform:scale(1.035)}.tag{position:absolute;left:12px;top:12px;background:var(--acid);padding:7px 9px;font-size:9px;letter-spacing:.12em;text-transform:uppercase}.product-info{display:flex;justify-content:space-between;gap:12px;padding:15px 1px 0}.product-info h3{margin:0 0 7px;font-size:14px;letter-spacing:.06em;text-transform:uppercase}.product-info p{margin:0;color:#676962;font-size:12px}.price{font-size:12px;white-space:nowrap}.product-actions{display:flex;gap:8px;margin-top:15px}.product-actions button{flex:1;border:1px solid var(--ink);background:transparent;padding:12px 8px;font-size:10px;letter-spacing:.12em;text-transform:uppercase}.product-actions button:hover{background:var(--ink);color:var(--paper)}.manifesto{background:var(--ink);color:var(--paper);padding:80px 0}.manifesto-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.manifesto h2{font-size:clamp(42px,7vw,90px);letter-spacing:-.07em;line-height:.9;margin:18px 0 0}.manifesto p{font-size:15px;line-height:1.8;color:#c3c3bb;max-width:490px}.manifesto .btn{border-color:var(--paper);background:var(--paper);color:var(--ink);margin-top:12px}.manifesto img{width:100%;display:block;aspect-ratio:1.05;object-fit:cover;filter:grayscale(.7);opacity:.9}.principles{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:40px}.principle{padding:28px 24px 28px 0}.principle+.principle{border-left:1px solid var(--line);padding-left:24px}.principle .num{font-size:11px;color:#777;margin-bottom:30px}.principle h3{font-size:20px;letter-spacing:-.03em;text-transform:uppercase;margin:0 0 10px}.principle p{font-size:13px;line-height:1.65;color:#65665f;margin:0;max-width:290px}.contact{background:var(--acid);padding:70px 0}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}.contact h2{font-size:clamp(42px,7vw,82px);letter-spacing:-.07em;line-height:.9;margin:16px 0}.contact p{font-size:14px;line-height:1.7;max-width:400px}.contact-form{display:grid;gap:12px;align-content:center}.contact-form input,.contact-form textarea{width:100%;border:1px solid #727c55;background:rgba(255,255,255,.25);padding:15px;color:var(--ink);outline:none}.contact-form textarea{min-height:100px;resize:vertical}.contact-form input::placeholder,.contact-form textarea::placeholder{color:#4e5441}.contact-form button{justify-self:start;border:1px solid var(--ink);background:var(--ink);color:var(--paper);padding:15px 18px;text-transform:uppercase;letter-spacing:.12em;font-size:10px}.footer{background:var(--ink);color:var(--paper);padding:28px 0}.footer-row{display:flex;justify-content:space-between;gap:25px;align-items:center}.footer .logo{font-size:26px}.footer-links{display:flex;gap:20px;font-size:10px;text-transform:uppercase;letter-spacing:.12em}.copyright{font-size:10px;color:#aaa}.toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,140%);z-index:60;background:var(--ink);color:var(--paper);padding:15px 20px;font-size:12px;transition:transform .25s;max-width:calc(100% - 30px);text-align:center}.toast.show{transform:translate(-50%,0)}.cart-panel{position:fixed;inset:0;z-index:50;background:#0006;display:none;justify-content:flex-end}.cart-panel.open{display:flex}.cart-box{width:min(430px,100%);height:100%;background:var(--paper);padding:28px;overflow:auto}.cart-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:20px}.cart-head h2{margin:0;font-size:22px}.close-cart{background:transparent;border:1px solid var(--ink);padding:8px 10px}.cart-item{padding:18px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:15px;font-size:13px}.cart-item small{display:block;color:#666;margin-top:6px}.cart-total{display:flex;justify-content:space-between;padding:20px 0;font-weight:bold}.cart-checkout{width:100%}.empty{color:#666;font-size:13px;padding:28px 0}.size-select{border:1px solid var(--line);background:transparent;padding:8px;font-size:11px;margin-top:10px;width:100%}.fineprint{font-size:10px;color:#777;margin-top:14px;line-height:1.6}
+@media(max-width:800px){.wrap{width:min(100% - 30px,var(--max))}.nav{height:66px}.navlinks{display:none;position:absolute;top:66px;left:0;right:0;background:var(--paper);padding:22px 20px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:22px}.navlinks.open{display:flex}.menu-btn{display:block}.hero{grid-template-columns:1fr}.hero-copy{padding:60px 24px 48px}.hero-image{min-height:390px}.products{grid-template-columns:1fr 1fr;gap:22px 10px}.section{padding:66px 0}.section-head{align-items:flex-start;flex-direction:column}.manifesto-grid,.contact-grid{grid-template-columns:1fr;gap:32px}.manifesto{padding:60px 0}.principles{grid-template-columns:1fr}.principle,.principle+.principle{border-left:0;padding:23px 0;border-bottom:1px solid var(--line)}.principle:last-child{border-bottom:0}.principle .num{margin-bottom:15px}.footer-row{align-items:flex-start;flex-direction:column}.footer-links{flex-wrap:wrap}.product-info{flex-direction:column;gap:7px}.product-actions{flex-direction:column}.product-actions button{padding:11px 5px}}
+@media(max-width:430px){.logo{font-size:29px}.cart-btn{padding:10px}.hero-image{min-height:320px}.products{grid-template-columns:1fr}.product-photo{aspect-ratio:1/1}.product-actions{flex-direction:row}.section-head h2{font-size:43px}}
+</style>
+</head>
+<body>
+<div class="topline">CERO® BUENOS AIRES · DROP 01 · ROPA REAL PARA PLANES REALES</div>
+<header class="header">
+  <div class="wrap nav">
+    <a class="logo" href="#inicio" aria-label="CERO inicio">CERO<sup>®</sup></a>
+    <nav class="navlinks" id="navlinks">
+      <a href="#inicio">Inicio</a><a href="#tienda">Tienda</a><a href="#nosotros">Nosotros</a><a href="#principios">Principios</a><a href="#contacto">Contacto</a>
+    </nav>
+    <div class="navright"><button class="cart-btn" id="openCart">Bolsa (<span id="cartCount">0</span>)</button><button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button></div>
+  </div>
+</header>
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-copy">
+    <div class="hero-kicker eyebrow"><span class="dot"></span> Buenos Aires · Est. 2026</div>
+    <h1>CERO<span>CALLE, IDENTIDAD<br>Y PLANES REALES.</span></h1>
+    <p>Prendas esenciales con actitud urbana. Diseñadas para moverse por la ciudad, repetirlas a tu manera y hacerlas parte de tu historia.</p>
+    <a class="btn" href="#tienda">Explorar Drop 01 <span>↗</span></a>
+  </div>
+  <div class="hero-image"><img src="assets/hero-cero.jpg" alt="Campaña CERO Drop 01 en estética urbana"><div class="image-label">Drop 01 — Unidades limitadas</div></div>
+</section>
+
+<section class="section" id="tienda">
+  <div class="wrap">
+    <div class="section-head"><div><div class="eyebrow">01 / La tienda</div><h2>DROP 01<span style="color:#85877f">.</span></h2></div><p>Tres remeras. Tres formas de llevar CERO. Elegí tu modelo y consultá disponibilidad y talles.</p></div>
+    <div class="products">
+      <article class="product">
+        <div class="product-photo"><img src="assets/the-heavy.jpg" alt="Remera The Heavy negra"><span class="tag">01 / Negro lavado</span></div>
+        <div class="product-info"><div><h3>The Heavy</h3><p>Negro lavado · Box fit</p></div><div class="price">Consultar</div></div>
+        <select class="size-select" id="size-heavy" aria-label="Talle The Heavy"><option value="">Elegir talle</option><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+        <div class="product-actions"><button onclick="addToCart('The Heavy','Negro lavado','size-heavy')">Agregar a bolsa +</button><button onclick="quickAsk('The Heavy','Negro lavado')">Consultar</button></div>
+      </article>
+      <article class="product">
+        <div class="product-photo"><img src="assets/the-raw.jpg" alt="Remera The Raw off-white"><span class="tag">02 / Off-white</span></div>
+        <div class="product-info"><div><h3>The Raw</h3><p>Crudo · Box fit</p></div><div class="price">Consultar</div></div>
+        <select class="size-select" id="size-raw" aria-label="Talle The Raw"><option value="">Elegir talle</option><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+        <div class="product-actions"><button onclick="addToCart('The Raw','Off-white / Crudo','size-raw')">Agregar a bolsa +</button><button onclick="quickAsk('The Raw','Off-white / Crudo')">Consultar</button></div>
+      </article>
+      <article class="product">
+        <div class="product-photo"><img src="assets/club-01.jpg" alt="Remera Club 01 gris cemento"><span class="tag">03 / Gris cemento</span></div>
+        <div class="product-info"><div><h3>Club 01</h3><p>Gris cemento · Estampa espalda</p></div><div class="price">Consultar</div></div>
+        <select class="size-select" id="size-club" aria-label="Talle Club 01"><option value="">Elegir talle</option><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+        <div class="product-actions"><button onclick="addToCart('Club 01','Gris cemento','size-club')">Agregar a bolsa +</button><button onclick="quickAsk('Club 01','Gris cemento')">Consultar</button></div>
+      </article>
+    </div>
+    <p class="fineprint">Las imágenes son referencias recortadas del tablero de prototipos. Confirmá fotos finales, talles, stock y precios antes de publicar la tienda.</p>
+  </div>
+</section>
+
+<section class="manifesto" id="nosotros">
+  <div class="wrap manifesto-grid">
+    <div><div class="eyebrow"><span class="dot"></span> 02 / Quiénes somos</div><h2>NO ES SOLO<br>LO QUE USÁS.</h2><p>CERO nace en Buenos Aires, en el cruce entre la cultura urbana, la música, el movimiento y la identidad propia. Hacemos prendas simples, con carácter, para acompañarte en la calle y en todos tus planes.</p><a class="btn" href="#principios">Conocé nuestra idea <span>↗</span></a></div>
+    <img src="assets/drop01-reference.jpg" alt="Tablero conceptual de CERO Drop 01">
+  </div>
+</section>
+
+<section class="section" id="principios">
+  <div class="wrap">
+    <div class="section-head"><div><div class="eyebrow">03 / Lo que nos mueve</div><h2>NUESTROS<br>PRINCIPIOS.</h2></div><p>No buscamos encajar en una sola escena. CERO acompaña tu ritmo, tu ciudad y tu forma de expresarte.</p></div>
+    <div class="principles">
+      <div class="principle"><div class="num">01 — CALLE</div><h3>Identidad urbana</h3><p>La ciudad inspira: sus esquinas, su música, su gente y las historias que pasan todos los días.</p></div>
+      <div class="principle"><div class="num">02 — MOVIMIENTO</div><h3>A tu manera</h3><p>Prendas cómodas y versátiles para moverte sin tener que cambiar quién sos.</p></div>
+      <div class="principle"><div class="num">03 — DISCIPLINA</div><h3>Sin excusas, sin pose</h3><p>Creemos en la constancia, en hacer lo propio y en mejorar sin compararte con los demás.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="wrap contact-grid">
+    <div><div class="eyebrow">04 / Hablemos</div><h2>¿TENÉS<br>UNA PREGUNTA?</h2><p>Consultas por talles, disponibilidad, envíos o colaboraciones. Dejanos tu mensaje y prepará tu consulta para enviarla.</p><div class="eyebrow">CERO® — Buenos Aires, Argentina</div></div>
+    <form class="contact-form" id="contactForm">
+      <input id="contactName" name="nombre" placeholder="Tu nombre" required>
+      <input id="contactEmail" name="email" type="email" placeholder="Tu email (opcional)">
+      <textarea id="contactMessage" name="mensaje" placeholder="¿En qué te podemos ayudar?" required></textarea>
+      <button type="submit">Preparar mensaje ↗</button>
+      <div class="fineprint">Este formulario prepara el mensaje en tu dispositivo. Para recibir consultas directamente, hay que conectarlo a un email o WhatsApp oficial de CERO.</div>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="footer"><div class="wrap footer-row"><a class="logo" href="#inicio">CERO<sup>®</sup></a><div class="footer-links"><a href="#inicio">Inicio</a><a href="#tienda">Tienda</a><a href="#nosotros">Nosotros</a><a href="#principios">Principios</a><a href="#contacto">Contacto</a></div><div class="copyright">© 2026 CERO. Buenos Aires.</div></div></footer>
+
+<div class="cart-panel" id="cartPanel" aria-hidden="true"><div class="cart-box"><div class="cart-head"><h2>Tu bolsa <span id="cartCountHeading">(0)</span></h2><button class="close-cart" id="closeCart">Cerrar ×</button></div><div id="cartItems"><p class="empty">Todavía no agregaste prendas.</p></div><div class="cart-total"><span>Total</span><span>A confirmar</span></div><button class="btn cart-checkout" id="checkout">Consultar pedido <span>↗</span></button><p class="fineprint">Los precios y la disponibilidad se confirman por contacto directo.</p></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const cart=[];
+const toastEl=document.getElementById('toast');
+let toastTimer;
+function toast(message){toastEl.textContent=message;toastEl.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toastEl.classList.remove('show'),2800)}
+function renderCart(){
+  document.getElementById('cartCount').textContent=cart.length;
+  document.getElementById('cartCountHeading').textContent='('+cart.length+')';
+  const container=document.getElementById('cartItems');
+  if(!cart.length){container.innerHTML='<p class="empty">Todavía no agregaste prendas.</p>';return}
+  container.innerHTML=cart.map((item,i)=>`<div class="cart-item"><div><strong>${item.name}</strong><small>${item.color} · Talle ${item.size}</small></div><button class="close-cart" onclick="removeItem(${i})" aria-label="Quitar ${item.name}">Quitar</button></div>`).join('');
+}
+function addToCart(name,color,sizeId){
+  const size=document.getElementById(sizeId).value;
+  if(!size){toast('Elegí un talle antes de agregar la remera.');document.getElementById(sizeId).focus();return}
+  cart.push({name,color,size});renderCart();toast(name+' se agregó a tu bolsa.');
+}
+function removeItem(index){cart.splice(index,1);renderCart()}
+function quickAsk(name,color){const sizeId=name==='The Heavy'?'size-heavy':name==='The Raw'?'size-raw':'size-club';const size=document.getElementById(sizeId).value;toast('Consulta: '+name+' · '+color+(size?' · talle '+size:' · talle a confirmar')+'. Escribinos por el canal oficial de CERO.')}
+const panel=document.getElementById('cartPanel');
+document.getElementById('openCart').addEventListener('click',()=>{panel.classList.add('open');panel.setAttribute('aria-hidden','false')});
+document.getElementById('closeCart').addEventListener('click',()=>{panel.classList.remove('open');panel.setAttribute('aria-hidden','true')});
+panel.addEventListener('click',e=>{if(e.target===panel){panel.classList.remove('open');panel.setAttribute('aria-hidden','true')}});
+document.getElementById('checkout').addEventListener('click',()=>{if(!cart.length){toast('Agregá una remera a la bolsa primero.');return}const text='Hola CERO, quiero consultar este pedido:\n'+cart.map(x=>'- '+x.name+' ('+x.color+'), talle '+x.size).join('\n')+'\n¿Me confirman precio y disponibilidad?';const w=window.open('','_blank');if(w){w.document.write('<title>Consulta CERO</title><p>Copiá este mensaje para enviarlo al contacto oficial de CERO:</p><textarea style="width:95%;height:180px">'+text.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</textarea>');}else{toast('Tu navegador bloqueó la ventana. Podés volver a intentarlo.')}});
+document.getElementById('menuBtn').addEventListener('click',()=>document.getElementById('navlinks').classList.toggle('open'));
+document.querySelectorAll('#navlinks a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navlinks').classList.remove('open')));
+document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();const name=document.getElementById('contactName').value.trim();const email=document.getElementById('contactEmail').value.trim();const message=document.getElementById('contactMessage').value.trim();const content='Consulta para CERO\nNombre: '+name+'\nEmail: '+email+'\nMensaje: '+message;const w=window.open('','_blank');if(w){w.document.write('<title>Mensaje para CERO</title><h2>Mensaje listo para copiar</h2><textarea style="width:95%;height:220px">'+content.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</textarea><p>Copialo y envialo por el canal oficial de CERO.</p>')}toast('Mensaje preparado. Copialo y envialo por el canal oficial de CERO.')});
+</script>
+</body>
+</html>
